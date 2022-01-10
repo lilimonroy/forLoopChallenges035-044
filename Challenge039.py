@@ -3,6 +3,5 @@
 
 num = int(input("Enter a number between 1 and 12: "))
 
-for x in range (1,num):
-    for i in range (0,10):
-        print(x,i)
+for i in range (1,11):
+    print(num,"x",i,"=",num*i)
